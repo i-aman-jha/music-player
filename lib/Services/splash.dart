@@ -44,7 +44,7 @@ class _SplashScreenState extends State<SplashScreen>
       body: Stack(
         children: [
           Lottie.asset(
-            (Theme.of(context).brightness==Brightness.dark)?'assets/icon/animation_dark.json':'assets/icon/animation_light.json',
+            (Theme.of(context).brightness==Brightness.dark)?'assets/animation/animation_dark.json':'assets/animation/animation_light.json',
             repeat: true,
             reverse: true,
           ),
